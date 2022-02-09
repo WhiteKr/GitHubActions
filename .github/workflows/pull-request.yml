@@ -1,7 +1,8 @@
 name: Create Pull Request
 on:
   push:
-    branches: '*dev'
+    branches: 
+      - '*dev'
 jobs:
   Create-Pull-Request:
     runs-on: ubuntu-latest
